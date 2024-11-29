@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #007bff;
+}
+
+#taskList {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .delete-btn {
+    color: #dc3545;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.list-group-item .delete-btn:hover {
+    color: #c82333;
+}
